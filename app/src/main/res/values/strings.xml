@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">DeepFake Detector</string>
+    <string name="app_version">1.0.0</string>
+
+    <!-- Main Activity -->
+    <string name="select_image">Select an image to analyze</string>
+    <string name="button_camera">Camera</string>
+    <string name="button_gallery">Gallery</string>
+    <string name="button_detect">Analyze Image</string>
+    <string name="button_history">View History</string>
+    <string name="analyzing">Analyzing...</string>
+    <string name="status_ready">Status: Ready to select image</string>
+    <string name="status_select_or_capture">Status: Please select or capture an image first</string>
+    <string name="status_detecting">Status: Detecting deepfake...</string>
+    <string name="status_error">Status: Error - %1$s</string>
+    <string name="status_failed_to_load">Status: Failed to load image. Please try again.</string>
+
+    <!-- Result Activity -->
+    <string name="detection_result">Detection Result</string>
+    <string name="result_label">Result: </string>
+    <string name="confidence">Confidence: </string>
+    <string name="button_save">Save Result</string>
+    <string name="button_analyze_again">Analyze Another Image</string>
+    <string name="deepfake_label">Deepfake</string>
+    <string name="real_label">Real</string>
+
+    <!-- History Activity -->
+    <string name="detection_history">Detection History</string>
+    <string name="button_clear">Clear History</string>
+    <string name="button_delete">Delete</string>
+    <string name="no_history">No detection history</string>
+
+    <!-- Splash Activity -->
+    <string name="splash_title">DeepFake Detector</string>
+
+    <!-- Error Messages -->
+    <string name="error_loading_image">Error loading image</string>
+    <string name="error_analyzing">Error during analysis</string>
+    <string name="error_permission_denied">Permission denied</string>
+
+    <!-- Messages -->
+    <string name="image_captured">Image captured. Ready to analyze.</string>
+    <string name="image_selected">Image selected. Ready to analyze.</string>
+</resources>
